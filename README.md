@@ -1,6 +1,6 @@
 <div>
 
-# ⭐ RateHub : Role-Based Store Rating & Analytics Platform 📊
+# ⭐ RateHub : Role-Based Store Rating & Analytics Platform
 
 </div>
 
