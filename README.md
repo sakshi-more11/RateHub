@@ -1,4 +1,4 @@
-<div align="center">
+<div>
 
 # ⭐ RateHub : Role-Based Store Rating & Analytics Platform 📊
 
@@ -157,6 +157,6 @@ All rules are enforced on **both** frontend (instant feedback) and backend (sour
 
 ---
 
-## 🙌 Built By
+## 🙌 Developed by 
 
-**Sakshi More**
+👩‍💻 **Sakshi More**
