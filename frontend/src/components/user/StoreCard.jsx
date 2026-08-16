@@ -34,8 +34,11 @@ export default function StoreCard({ store, onRated, onOpenDetail }) {
       <div onClick={() => onOpenDetail(store)} className="cursor-pointer">
         <div className="flex items-start justify-between mb-2">
           <h3 className="font-display font-bold text-textPrimary text-lg leading-tight">{store.name}</h3>
-          <div className="flex items-center gap-1 bg-accent/15 text-accent px-2 py-1 rounded-lg text-sm font-semibold shrink-0 ml-2">
-            <span>★</span>{store.overallRating || '—'}
+          <div className="flex flex-col items-end shrink-0 ml-2">
+            <span className="text-[10px] text-textSecondary uppercase tracking-wide">Overall Rating</span>
+            <div className="flex items-center gap-1 bg-accent/15 text-accent px-2 py-1 rounded-lg text-sm font-semibold">
+              <span>★</span>{store.overallRating || '—'}
+            </div>
           </div>
         </div>
         <p className="flex items-center gap-1.5 text-sm text-textSecondary mb-4">

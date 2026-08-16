@@ -30,6 +30,7 @@ async function listStoresAdmin({ name, email, address, sortBy = 'name', sortOrde
   let result = stores.map(s => ({
     id: s.id, name: s.name, email: s.email, address: s.address,
     rating: calcAvg(s.ratings),
+    ratingCount: s.ratings.length,
   }));
 
   if (isComputedSort) {

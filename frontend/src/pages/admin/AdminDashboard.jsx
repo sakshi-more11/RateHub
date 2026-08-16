@@ -100,7 +100,7 @@ export default function AdminDashboard() {
         <div className="grid sm:grid-cols-3 gap-4 mb-8">
           <StatCard label="Total Users" value={stats.totalUsers} icon={Users} accent />
           <StatCard label="Total Stores" value={stats.totalStores} icon={StoreIcon} />
-          <StatCard label="Total Ratings" value={stats.totalRatings} icon={Star} />
+          <StatCard label="Total Submitted Ratings" value={stats.totalRatings} icon={Star} />
         </div>
 
         <div className="flex items-center gap-2 mb-5 border-b border-borderc">
@@ -206,6 +206,7 @@ export default function AdminDashboard() {
                   <td className="px-5 py-3.5">
                     <span className="flex items-center gap-1 text-textPrimary font-medium">
                       <Star size={14} className="fill-accent text-accent" /> {s.rating || '—'}
+                      <span className="text-textSecondary text-xs font-normal ml-1">({s.ratingCount || 0})</span>
                     </span>
                   </td>
                 </>
