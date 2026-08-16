@@ -6,6 +6,8 @@
 
 A full-stack web application where users discover and rate stores, store owners track their performance with real analytics, and admins manage the entire platform — all through a single login system with role-based access control.
 
+🔗 **[Live](https://rate-hub-role-based-store-rating-an.vercel.app/)**
+
 ---
 
 ## 🚀 Live Highlights
@@ -149,11 +151,9 @@ All rules are enforced on **both** frontend (instant feedback) and backend (sour
 
 ---
 
-## 📸 Screenshots
+## 🎥 Demo Video
 
-| Login | Admin Dashboard | Owner Analytics |
-|---|---|---|
-| _add screenshot_ | _add screenshot_ | _add screenshot_ |
+https://github.com/user-attachments/assets/xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
 
 ---
 
